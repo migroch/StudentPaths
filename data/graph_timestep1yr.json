@@ -4,306 +4,367 @@
     "graph": {},
     "nodes": [
         {
+            "name": "enr2year-1",
             "longName": "Enrolled | 2-Year College",
             "time": "1",
             "id": "enr2year-1"
         },
         {
+            "name": "enr2year-2",
             "longName": "Enrolled | 2-Year College",
             "time": "2",
             "id": "enr2year-2"
         },
         {
+            "name": "enr2year-2,enr4year-2",
             "longName": "Enrolled | 2-Year & 4-Year ",
             "time": "2",
             "id": "enr2year-2,enr4year-2"
         },
         {
+            "name": "enr4year-2",
             "longName": "Enrolled | 4-Year College",
             "time": "2",
             "id": "enr4year-2"
         },
         {
+            "name": "grad2year-2",
             "longName": "Graduated | 2-Year College",
             "time": "2",
             "id": "grad2year-2"
         },
         {
+            "name": "grad4year-2",
             "longName": "Graduated | 4-Year College",
             "time": "2",
             "id": "grad4year-2"
         },
         {
+            "name": "norecordfound-2",
             "longName": "No College Record Found",
             "time": "2",
             "id": "norecordfound-2"
         },
         {
+            "name": "enr2year-1,enr4year-1",
             "longName": "Enrolled | 2-Year & 4-Year ",
             "time": "1",
             "id": "enr2year-1,enr4year-1"
         },
         {
+            "name": "enr2year-3",
             "longName": "Enrolled | 2-Year College",
             "time": "3",
             "id": "enr2year-3"
         },
         {
+            "name": "enr2year-3,enr4year-3",
             "longName": "Enrolled | 2-Year & 4-Year ",
             "time": "3",
             "id": "enr2year-3,enr4year-3"
         },
         {
+            "name": "enr4year-3",
             "longName": "Enrolled | 4-Year College",
             "time": "3",
             "id": "enr4year-3"
         },
         {
+            "name": "grad2year-3",
             "longName": "Graduated | 2-Year College",
             "time": "3",
             "id": "grad2year-3"
         },
         {
+            "name": "norecordfound-3",
             "longName": "No College Record Found",
             "time": "3",
             "id": "norecordfound-3"
         },
         {
+            "name": "grad2year-3,grad4year-3",
             "longName": "Graduated | 2-Year & 4-Year ",
             "time": "3",
             "id": "grad2year-3,grad4year-3"
         },
         {
+            "name": "grad4year-3",
             "longName": "Graduated | 4-Year College",
             "time": "3",
             "id": "grad4year-3"
         },
         {
+            "name": "enr2year-4",
             "longName": "Enrolled | 2-Year College",
             "time": "4",
             "id": "enr2year-4"
         },
         {
+            "name": "enr2year-4,enr4year-4",
             "longName": "Enrolled | 2-Year & 4-Year ",
             "time": "4",
             "id": "enr2year-4,enr4year-4"
         },
         {
+            "name": "enr4year-4",
             "longName": "Enrolled | 4-Year College",
             "time": "4",
             "id": "enr4year-4"
         },
         {
+            "name": "grad2year-4",
             "longName": "Graduated | 2-Year College",
             "time": "4",
             "id": "grad2year-4"
         },
         {
+            "name": "norecordfound-4",
             "longName": "No College Record Found",
             "time": "4",
             "id": "norecordfound-4"
         },
         {
+            "name": "grad2year-4,grad4year-4",
             "longName": "Graduated | 2-Year & 4-Year ",
             "time": "4",
             "id": "grad2year-4,grad4year-4"
         },
         {
+            "name": "grad4year-4",
             "longName": "Graduated | 4-Year College",
             "time": "4",
             "id": "grad4year-4"
         },
         {
+            "name": "enr2year-5",
             "longName": "Enrolled | 2-Year College",
             "time": "5",
             "id": "enr2year-5"
         },
         {
+            "name": "enr2year-5,enr4year-5",
             "longName": "Enrolled | 2-Year & 4-Year ",
             "time": "5",
             "id": "enr2year-5,enr4year-5"
         },
         {
+            "name": "enr4year-5",
             "longName": "Enrolled | 4-Year College",
             "time": "5",
             "id": "enr4year-5"
         },
         {
+            "name": "grad2year-5",
             "longName": "Graduated | 2-Year College",
             "time": "5",
             "id": "grad2year-5"
         },
         {
+            "name": "grad4year-5",
             "longName": "Graduated | 4-Year College",
             "time": "5",
             "id": "grad4year-5"
         },
         {
+            "name": "norecordfound-5",
             "longName": "No College Record Found",
             "time": "5",
             "id": "norecordfound-5"
         },
         {
+            "name": "grad2year-5,grad4year-5",
             "longName": "Graduated | 2-Year & 4-Year ",
             "time": "5",
             "id": "grad2year-5,grad4year-5"
         },
         {
+            "name": "enr2year-6",
             "longName": "Enrolled | 2-Year College",
             "time": "6",
             "id": "enr2year-6"
         },
         {
+            "name": "enr2year-6,enr4year-6",
             "longName": "Enrolled | 2-Year & 4-Year ",
             "time": "6",
             "id": "enr2year-6,enr4year-6"
         },
         {
+            "name": "enr4year-6",
             "longName": "Enrolled | 4-Year College",
             "time": "6",
             "id": "enr4year-6"
         },
         {
+            "name": "grad2year-6",
             "longName": "Graduated | 2-Year College",
             "time": "6",
             "id": "grad2year-6"
         },
         {
+            "name": "grad4year-6",
             "longName": "Graduated | 4-Year College",
             "time": "6",
             "id": "grad4year-6"
         },
         {
+            "name": "norecordfound-6",
             "longName": "No College Record Found",
             "time": "6",
             "id": "norecordfound-6"
         },
         {
+            "name": "enr2year-7",
             "longName": "Enrolled | 2-Year College",
             "time": "7",
             "id": "enr2year-7"
         },
         {
+            "name": "enr2year-7,enr4year-7",
             "longName": "Enrolled | 2-Year & 4-Year ",
             "time": "7",
             "id": "enr2year-7,enr4year-7"
         },
         {
+            "name": "enr4year-7",
             "longName": "Enrolled | 4-Year College",
             "time": "7",
             "id": "enr4year-7"
         },
         {
+            "name": "grad2year-7",
             "longName": "Graduated | 2-Year College",
             "time": "7",
             "id": "grad2year-7"
         },
         {
+            "name": "norecordfound-7",
             "longName": "No College Record Found",
             "time": "7",
             "id": "norecordfound-7"
         },
         {
+            "name": "grad2year-7,grad4year-7",
             "longName": "Graduated | 2-Year & 4-Year ",
             "time": "7",
             "id": "grad2year-7,grad4year-7"
         },
         {
+            "name": "grad4year-7",
             "longName": "Graduated | 4-Year College",
             "time": "7",
             "id": "grad4year-7"
         },
         {
+            "name": "enr2year-8",
             "longName": "Enrolled | 2-Year College",
             "time": "8",
             "id": "enr2year-8"
         },
         {
+            "name": "enr2year-8,enr4year-8",
             "longName": "Enrolled | 2-Year & 4-Year ",
             "time": "8",
             "id": "enr2year-8,enr4year-8"
         },
         {
+            "name": "enr4year-8",
             "longName": "Enrolled | 4-Year College",
             "time": "8",
             "id": "enr4year-8"
         },
         {
+            "name": "grad2year-8",
             "longName": "Graduated | 2-Year College",
             "time": "8",
             "id": "grad2year-8"
         },
         {
+            "name": "norecordfound-8",
             "longName": "No College Record Found",
             "time": "8",
             "id": "norecordfound-8"
         },
         {
+            "name": "grad4year-8",
             "longName": "Graduated | 4-Year College",
             "time": "8",
             "id": "grad4year-8"
         },
         {
+            "name": "enr4year-9",
             "longName": "Enrolled | 4-Year College",
             "time": "9",
             "id": "enr4year-9"
         },
         {
+            "name": "norecordfound-9",
             "longName": "No College Record Found",
             "time": "9",
             "id": "norecordfound-9"
         },
         {
+            "name": "enr4year-1",
             "longName": "Enrolled | 4-Year College",
             "time": "1",
             "id": "enr4year-1"
         },
         {
+            "name": "grad2year-6,grad4year-6",
             "longName": "Graduated | 2-Year & 4-Year ",
             "time": "6",
             "id": "grad2year-6,grad4year-6"
         },
         {
+            "name": "enr<2years-2",
             "longName": "Enrolled | Less Than 2 Years",
             "time": "2",
             "id": "enr<2years-2"
         },
         {
+            "name": "enr<2years-3",
             "longName": "Enrolled | Less Than 2 Years",
             "time": "3",
             "id": "enr<2years-3"
         },
         {
+            "name": "enr<2years-4",
             "longName": "Enrolled | Less Than 2 Years",
             "time": "4",
             "id": "enr<2years-4"
         },
         {
+            "name": "grad<2years-5",
             "longName": "Graduated | Less Than 2 Years",
             "time": "5",
             "id": "grad<2years-5"
         },
         {
+            "name": "enr<2years-6",
             "longName": "Enrolled | Less Than 2 Years",
             "time": "6",
             "id": "enr<2years-6"
         },
         {
+            "name": "grad<2years-7",
             "longName": "Graduated | Less Than 2 Years",
             "time": "7",
             "id": "grad<2years-7"
         },
         {
+            "name": "grad2year-1",
             "longName": "Graduated | 2-Year College",
             "time": "1",
             "id": "grad2year-1"
         },
         {
+            "name": "hsgrad-0",
             "longName": "Graduated | High School",
             "time": "0",
             "id": "hsgrad-0"
         },
         {
+            "name": "norecordfound-1",
             "longName": "No College Record Found",
             "time": "1",
             "id": "norecordfound-1"

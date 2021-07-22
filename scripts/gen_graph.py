@@ -3,38 +3,7 @@ import pandas as pd
 import networkx as nx
 from networkx.readwrite import json_graph
 import json
-
 pd.set_option('mode.chained_assignment', None)
-
-nsch_data = pd.read_csv('data/scz_county_ns_clearinghouse_detail.csv')
-
-# Filter
-nsch_data['HIGH_SCHOOL_GRAD_DATE'] = pd.to_datetime(nsch_data['HIGH_SCHOOL_GRAD_DATE'])
-#nsch_data = nsch_data[nsch_data.HIGH_SCHOOL_GRAD_DATE.dt.year < 2015]  
-
-graph_time_unit = 4 # 1-year = 3 months*4 (Assuming a 3-month time unit in the nsch_data)
-
-graph_df = nsch_data[['ID', 'GradEnrollGroups', 'TIME_FROM_HSGRAD']]  
-graph_df['GRAPH_TIME'] = graph_df['TIME_FROM_HSGRAD']/graph_time_unit
-graph_df['GRAPH_TIME'] = graph_df['GRAPH_TIME'].apply(np.ceil).astype('Int64')
-graph_df['GRAPH_TIME'][graph_df['GRAPH_TIME']==0] = 1
-graph_df['GRAPH_TIME'][graph_df['GRAPH_TIME'].isna()] = 1
-graph_df = graph_df.sort_values('GRAPH_TIME')
-
-graph_df['nodeID'] = (
-    graph_df.GradEnrollGroups
-    .str.replace(' ','')
-    .str.replace('|','')
-    .str.replace('-','')
-    .str.replace('College','')
-    .str.replace('Enrolled','enr')
-    .str.replace('Graduated','grad')
-    .str.replace('LessThan','<')
-    .str.lower()
-)  + '-' + graph_df.GRAPH_TIME.astype('str')
-
-graph_df = graph_df.groupby(['ID','nodeID']).head(1) # selects unique (ID, nodeID) combinations
-raw_nodes = graph_df[['ID','nodeID']].groupby('nodeID')['ID'].unique()
 
 def clean_nodes(nodes):
     '''
@@ -53,6 +22,36 @@ def clean_nodes(nodes):
     else:
         node = ''
     return node
+
+nsch_data = pd.read_csv('data/scz_county_ns_clearinghouse_detail.csv')
+
+# Filter
+nsch_data['HIGH_SCHOOL_GRAD_DATE'] = pd.to_datetime(nsch_data['HIGH_SCHOOL_GRAD_DATE'])
+#nsch_data = nsch_data[nsch_data.HIGH_SCHOOL_GRAD_DATE.dt.year < 2015]  
+
+graph_time_unit = 4 # 1-year = 3 months*4 (Assuming a 3-month time unit in the nsch_data)
+
+graph_df = nsch_data[['ID', 'GradEnrollGroups', 'TIME_FROM_HSGRAD']]  
+graph_df['GRAPH_TIME'] = graph_df['TIME_FROM_HSGRAD']/graph_time_unit
+graph_df['GRAPH_TIME'] = graph_df['GRAPH_TIME'].apply(np.ceil).astype('Int64')
+graph_df['GRAPH_TIME'][graph_df['GRAPH_TIME']==0] = 1 # GRAPH_TIME=0 for negative values, students enrolling before hs grad. Set those to 1
+graph_df['GRAPH_TIME'][graph_df['GRAPH_TIME'].isna()] = 1
+graph_df = graph_df.sort_values('GRAPH_TIME')
+
+graph_df['nodeID'] = (
+    graph_df.GradEnrollGroups
+    .str.replace(' ','')
+    .str.replace('|','')
+    .str.replace('-','')
+    .str.replace('College','')
+    .str.replace('Enrolled','enr')
+    .str.replace('Graduated','grad')
+    .str.replace('LessThan','<')
+    .str.lower()
+)  + '-' + graph_df.GRAPH_TIME.astype('str')
+
+graph_df = graph_df.groupby(['ID','nodeID']).head(1) # selects unique (ID, nodeID) combinations
+raw_nodes = graph_df[['ID','nodeID']].groupby('nodeID')['ID'].unique()
 
 time_max = graph_df.GRAPH_TIME.max()
 #time_max = 5
@@ -109,6 +108,7 @@ for node in G.nodes:
     else:
         node_key = node.split('-')[0] + node.split('-')[1][1:]
     node_attrs[node] = {
+        'name': node,
         'longName':  node_longNames[node_key], 
         'time': node.split('-')[-1]
     }
