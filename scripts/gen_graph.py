@@ -13,13 +13,12 @@ node_attributes = {
     'norecordfound': {'long_name': 'No College Record Found', 'sort_order': 0, 'color': '#7f7f7f' }, 
     'hsgrad': {'long_name': 'Graduated | High School', 'sort_order': 1, 'color': '#7D5BA6'},
     'enr2year': {'long_name': 'Enrolled | 2-Year College', 'sort_order': 2, 'color': '#d62728'},
-    'enr2year,enr4year': {'long_name': 'Enrolled | 2-Year & 4-Year ', 'sort_order': 3, 'color': '#FC6471'},
-    'enr4year': {'long_name': 'Enrolled | 4-Year College', 'sort_order': 4, 'color': '#1f77b4'},
-    'grad2year': {'long_name': 'Graduated | 2-Year College', 'sort_order': 5, 'color': '#2ca02c'},
-    'grad2year,grad4year': {'long_name': 'Graduated | 2-Year & 4-Year ', 'sort_order': 6, 'color': '#55D6BE'},
-    'grad4year': {'long_name': 'Graduated | 4-Year College', 'sort_order': 7, 'color': '#ff7f0e'},
-    'enr<2years': {'long_name': 'Enrolled | Less Than 2 Years', 'sort_order': 8, 'color': '#bcbd22'},  
-    'grad<2years': {'long_name': 'Graduated | Less Than 2 Years', 'sort_order': 9, 'color': '#387780'},
+    'enr2year,enr4year': {'long_name': 'Enrolled | 2-Year & 4-Year ', 'sort_order': 3, 'color': '#55D6BE'},
+    'grad2year': {'long_name': 'Graduated | 2-Year College', 'sort_order': 4, 'color': '#2ca02c'},
+    'enr4year': {'long_name': 'Enrolled | 4-Year College', 'sort_order': 5, 'color': '#1f77b4'},
+    'grad4year': {'long_name': 'Graduated | 4-Year College', 'sort_order': 6, 'color': '#ff7f0e'},
+    'enr<2years': {'long_name': 'Enrolled | Less Than 2 Years', 'sort_order': 7, 'color': '#bcbd22'},  
+    'grad<2years': {'long_name': 'Graduated | Less Than 2 Years', 'sort_order': 8, 'color': '#387780'},
 }
 
 def read_nsch_data(path, max_year=None):
@@ -100,10 +99,10 @@ def reduce_nodes(nodes):
         nodes_grad = [s for s in nodes if 'grad' in s]
         nodes_enr = [s for s in nodes if 'enr' in s]
         if len(nodes_grad):
-            nodes = nodes_grad
+            node = nodes_grad[-1]
         else:
             nodes = nodes_enr    
-        node = ','.join(np.sort(nodes))
+            node = ','.join(np.sort(nodes))
     else:
         node = ''
     return node
