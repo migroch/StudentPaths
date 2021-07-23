@@ -4,20 +4,22 @@ import networkx as nx
 from networkx.readwrite import json_graph
 import json
 import re
+#import pdb
 pd.set_option('mode.chained_assignment', None)
 
+
 ### Definitions ###
-node_longNames = {
-    'hsgrad': 'Graduated | High School',
-    'enr2year': 'Enrolled | 2-Year College',
-    'enr4year': 'Enrolled | 4-Year College',
-    'enr2year,enr4year': 'Enrolled | 2-Year & 4-Year ',
-    'enr<2years': 'Enrolled | Less Than 2 Years', 
-    'grad2year': 'Graduated | 2-Year College',
-    'grad4year': 'Graduated | 4-Year College',
-    'grad2year,grad4year': 'Graduated | 2-Year & 4-Year ',
-    'grad<2years': 'Graduated | Less Than 2 Years',
-    'norecordfound': 'No College Record Found', 
+node_attributes = {
+    'norecordfound': {'long_name': 'No College Record Found', 'sort_order': 0, 'color': '#7f7f7f' }, 
+    'hsgrad': {'long_name': 'Graduated | High School', 'sort_order': 1, 'color': '#7D5BA6'},
+    'enr2year': {'long_name': 'Enrolled | 2-Year College', 'sort_order': 2, 'color': '#d62728'},
+    'enr2year,enr4year': {'long_name': 'Enrolled | 2-Year & 4-Year ', 'sort_order': 3, 'color': '#FC6471'},
+    'enr4year': {'long_name': 'Enrolled | 4-Year College', 'sort_order': 4, 'color': '#1f77b4'},
+    'grad2year': {'long_name': 'Graduated | 2-Year College', 'sort_order': 5, 'color': '#2ca02c'},
+    'grad2year,grad4year': {'long_name': 'Graduated | 2-Year & 4-Year ', 'sort_order': 6, 'color': '#55D6BE'},
+    'grad4year': {'long_name': 'Graduated | 4-Year College', 'sort_order': 7, 'color': '#ff7f0e'},
+    'enr<2years': {'long_name': 'Enrolled | Less Than 2 Years', 'sort_order': 8, 'color': '#bcbd22'},  
+    'grad<2years': {'long_name': 'Graduated | Less Than 2 Years', 'sort_order': 9, 'color': '#387780'},
 }
 
 def read_nsch_data(path, max_year=None):
@@ -131,8 +133,10 @@ def gen_graph(edges):
             node_key = node.split('-')[0] + node.split('-')[1][1:]
         node_attrs[node] = {
             'name': node,
-            'longName':  node_longNames[node_key], 
-            'time': node.split('-')[-1]
+            'time': node.split('-')[-1],
+            'long_name': node_attributes[node_key]['long_name'], 
+            'sort_order': node_attributes[node_key]['sort_order'],
+            'color': node_attributes[node_key]['color'],
         }
     nx.set_node_attributes(G, node_attrs)
     return G

@@ -5,416 +5,554 @@
     "nodes": [
         {
             "name": "enr2year-1",
-            "longName": "Enrolled | 2-Year College",
             "time": "1",
+            "long_name": "Enrolled | 2-Year College",
+            "sort_order": 2,
+            "color": "#d62728",
             "id": "enr2year-1"
         },
         {
             "name": "enr2year-2",
-            "longName": "Enrolled | 2-Year College",
             "time": "2",
+            "long_name": "Enrolled | 2-Year College",
+            "sort_order": 2,
+            "color": "#d62728",
             "id": "enr2year-2"
         },
         {
             "name": "enr2year-2,enr4year-2",
-            "longName": "Enrolled | 2-Year & 4-Year ",
             "time": "2",
+            "long_name": "Enrolled | 2-Year & 4-Year ",
+            "sort_order": 3,
+            "color": "#FC6471",
             "id": "enr2year-2,enr4year-2"
         },
         {
             "name": "enr4year-2",
-            "longName": "Enrolled | 4-Year College",
             "time": "2",
+            "long_name": "Enrolled | 4-Year College",
+            "sort_order": 4,
+            "color": "#1f77b4",
             "id": "enr4year-2"
         },
         {
             "name": "grad2year-2",
-            "longName": "Graduated | 2-Year College",
             "time": "2",
+            "long_name": "Graduated | 2-Year College",
+            "sort_order": 5,
+            "color": "#2ca02c",
             "id": "grad2year-2"
         },
         {
             "name": "enr2year-1,enr4year-1",
-            "longName": "Enrolled | 2-Year & 4-Year ",
             "time": "1",
+            "long_name": "Enrolled | 2-Year & 4-Year ",
+            "sort_order": 3,
+            "color": "#FC6471",
             "id": "enr2year-1,enr4year-1"
         },
         {
             "name": "enr2year-3",
-            "longName": "Enrolled | 2-Year College",
             "time": "3",
+            "long_name": "Enrolled | 2-Year College",
+            "sort_order": 2,
+            "color": "#d62728",
             "id": "enr2year-3"
         },
         {
             "name": "enr2year-3,enr4year-3",
-            "longName": "Enrolled | 2-Year & 4-Year ",
             "time": "3",
+            "long_name": "Enrolled | 2-Year & 4-Year ",
+            "sort_order": 3,
+            "color": "#FC6471",
             "id": "enr2year-3,enr4year-3"
         },
         {
             "name": "enr4year-3",
-            "longName": "Enrolled | 4-Year College",
             "time": "3",
+            "long_name": "Enrolled | 4-Year College",
+            "sort_order": 4,
+            "color": "#1f77b4",
             "id": "enr4year-3"
         },
         {
             "name": "grad2year-3",
-            "longName": "Graduated | 2-Year College",
             "time": "3",
+            "long_name": "Graduated | 2-Year College",
+            "sort_order": 5,
+            "color": "#2ca02c",
             "id": "grad2year-3"
         },
         {
             "name": "grad4year-3",
-            "longName": "Graduated | 4-Year College",
             "time": "3",
+            "long_name": "Graduated | 4-Year College",
+            "sort_order": 7,
+            "color": "#ff7f0e",
             "id": "grad4year-3"
         },
         {
             "name": "enr2year-4",
-            "longName": "Enrolled | 2-Year College",
             "time": "4",
+            "long_name": "Enrolled | 2-Year College",
+            "sort_order": 2,
+            "color": "#d62728",
             "id": "enr2year-4"
         },
         {
             "name": "enr2year-4,enr4year-4",
-            "longName": "Enrolled | 2-Year & 4-Year ",
             "time": "4",
+            "long_name": "Enrolled | 2-Year & 4-Year ",
+            "sort_order": 3,
+            "color": "#FC6471",
             "id": "enr2year-4,enr4year-4"
         },
         {
             "name": "enr4year-4",
-            "longName": "Enrolled | 4-Year College",
             "time": "4",
+            "long_name": "Enrolled | 4-Year College",
+            "sort_order": 4,
+            "color": "#1f77b4",
             "id": "enr4year-4"
         },
         {
             "name": "grad2year-4",
-            "longName": "Graduated | 2-Year College",
             "time": "4",
+            "long_name": "Graduated | 2-Year College",
+            "sort_order": 5,
+            "color": "#2ca02c",
             "id": "grad2year-4"
         },
         {
             "name": "grad4year-4",
-            "longName": "Graduated | 4-Year College",
             "time": "4",
+            "long_name": "Graduated | 4-Year College",
+            "sort_order": 7,
+            "color": "#ff7f0e",
             "id": "grad4year-4"
         },
         {
             "name": "enr2year-5",
-            "longName": "Enrolled | 2-Year College",
             "time": "5",
+            "long_name": "Enrolled | 2-Year College",
+            "sort_order": 2,
+            "color": "#d62728",
             "id": "enr2year-5"
         },
         {
             "name": "enr2year-5,enr4year-5",
-            "longName": "Enrolled | 2-Year & 4-Year ",
             "time": "5",
+            "long_name": "Enrolled | 2-Year & 4-Year ",
+            "sort_order": 3,
+            "color": "#FC6471",
             "id": "enr2year-5,enr4year-5"
         },
         {
             "name": "enr4year-5",
-            "longName": "Enrolled | 4-Year College",
             "time": "5",
+            "long_name": "Enrolled | 4-Year College",
+            "sort_order": 4,
+            "color": "#1f77b4",
             "id": "enr4year-5"
         },
         {
             "name": "grad2year-5",
-            "longName": "Graduated | 2-Year College",
             "time": "5",
+            "long_name": "Graduated | 2-Year College",
+            "sort_order": 5,
+            "color": "#2ca02c",
             "id": "grad2year-5"
         },
         {
             "name": "grad4year-5",
-            "longName": "Graduated | 4-Year College",
             "time": "5",
+            "long_name": "Graduated | 4-Year College",
+            "sort_order": 7,
+            "color": "#ff7f0e",
             "id": "grad4year-5"
         },
         {
             "name": "enr2year-6",
-            "longName": "Enrolled | 2-Year College",
             "time": "6",
+            "long_name": "Enrolled | 2-Year College",
+            "sort_order": 2,
+            "color": "#d62728",
             "id": "enr2year-6"
         },
         {
             "name": "enr2year-6,enr4year-6",
-            "longName": "Enrolled | 2-Year & 4-Year ",
             "time": "6",
+            "long_name": "Enrolled | 2-Year & 4-Year ",
+            "sort_order": 3,
+            "color": "#FC6471",
             "id": "enr2year-6,enr4year-6"
         },
         {
             "name": "enr4year-6",
-            "longName": "Enrolled | 4-Year College",
             "time": "6",
+            "long_name": "Enrolled | 4-Year College",
+            "sort_order": 4,
+            "color": "#1f77b4",
             "id": "enr4year-6"
         },
         {
             "name": "grad2year-6",
-            "longName": "Graduated | 2-Year College",
             "time": "6",
+            "long_name": "Graduated | 2-Year College",
+            "sort_order": 5,
+            "color": "#2ca02c",
             "id": "grad2year-6"
         },
         {
             "name": "grad4year-6",
-            "longName": "Graduated | 4-Year College",
             "time": "6",
+            "long_name": "Graduated | 4-Year College",
+            "sort_order": 7,
+            "color": "#ff7f0e",
             "id": "grad4year-6"
         },
         {
             "name": "enr2year-7",
-            "longName": "Enrolled | 2-Year College",
             "time": "7",
+            "long_name": "Enrolled | 2-Year College",
+            "sort_order": 2,
+            "color": "#d62728",
             "id": "enr2year-7"
         },
         {
             "name": "enr2year-7,enr4year-7",
-            "longName": "Enrolled | 2-Year & 4-Year ",
             "time": "7",
+            "long_name": "Enrolled | 2-Year & 4-Year ",
+            "sort_order": 3,
+            "color": "#FC6471",
             "id": "enr2year-7,enr4year-7"
         },
         {
             "name": "enr4year-7",
-            "longName": "Enrolled | 4-Year College",
             "time": "7",
+            "long_name": "Enrolled | 4-Year College",
+            "sort_order": 4,
+            "color": "#1f77b4",
             "id": "enr4year-7"
         },
         {
             "name": "grad2year-7",
-            "longName": "Graduated | 2-Year College",
             "time": "7",
+            "long_name": "Graduated | 2-Year College",
+            "sort_order": 5,
+            "color": "#2ca02c",
             "id": "grad2year-7"
         },
         {
             "name": "grad2year-7,grad4year-7",
-            "longName": "Graduated | 2-Year & 4-Year ",
             "time": "7",
+            "long_name": "Graduated | 2-Year & 4-Year ",
+            "sort_order": 6,
+            "color": "#55D6BE",
             "id": "grad2year-7,grad4year-7"
         },
         {
             "name": "grad4year-7",
-            "longName": "Graduated | 4-Year College",
             "time": "7",
+            "long_name": "Graduated | 4-Year College",
+            "sort_order": 7,
+            "color": "#ff7f0e",
             "id": "grad4year-7"
         },
         {
             "name": "enr2year-8",
-            "longName": "Enrolled | 2-Year College",
             "time": "8",
+            "long_name": "Enrolled | 2-Year College",
+            "sort_order": 2,
+            "color": "#d62728",
             "id": "enr2year-8"
         },
         {
             "name": "enr2year-8,enr4year-8",
-            "longName": "Enrolled | 2-Year & 4-Year ",
             "time": "8",
+            "long_name": "Enrolled | 2-Year & 4-Year ",
+            "sort_order": 3,
+            "color": "#FC6471",
             "id": "enr2year-8,enr4year-8"
         },
         {
             "name": "enr4year-8",
-            "longName": "Enrolled | 4-Year College",
             "time": "8",
+            "long_name": "Enrolled | 4-Year College",
+            "sort_order": 4,
+            "color": "#1f77b4",
             "id": "enr4year-8"
         },
         {
             "name": "grad2year-8",
-            "longName": "Graduated | 2-Year College",
             "time": "8",
+            "long_name": "Graduated | 2-Year College",
+            "sort_order": 5,
+            "color": "#2ca02c",
             "id": "grad2year-8"
         },
         {
             "name": "grad4year-8",
-            "longName": "Graduated | 4-Year College",
             "time": "8",
+            "long_name": "Graduated | 4-Year College",
+            "sort_order": 7,
+            "color": "#ff7f0e",
             "id": "grad4year-8"
         },
         {
             "name": "enr2year-9",
-            "longName": "Enrolled | 2-Year College",
             "time": "9",
+            "long_name": "Enrolled | 2-Year College",
+            "sort_order": 2,
+            "color": "#d62728",
             "id": "enr2year-9"
         },
         {
             "name": "enr4year-9",
-            "longName": "Enrolled | 4-Year College",
             "time": "9",
+            "long_name": "Enrolled | 4-Year College",
+            "sort_order": 4,
+            "color": "#1f77b4",
             "id": "enr4year-9"
         },
         {
             "name": "enr2year-9,enr4year-9",
-            "longName": "Enrolled | 2-Year & 4-Year ",
             "time": "9",
+            "long_name": "Enrolled | 2-Year & 4-Year ",
+            "sort_order": 3,
+            "color": "#FC6471",
             "id": "enr2year-9,enr4year-9"
         },
         {
             "name": "enr4year-1",
-            "longName": "Enrolled | 4-Year College",
             "time": "1",
+            "long_name": "Enrolled | 4-Year College",
+            "sort_order": 4,
+            "color": "#1f77b4",
             "id": "enr4year-1"
         },
         {
             "name": "grad4year-2",
-            "longName": "Graduated | 4-Year College",
             "time": "2",
+            "long_name": "Graduated | 4-Year College",
+            "sort_order": 7,
+            "color": "#ff7f0e",
             "id": "grad4year-2"
         },
         {
             "name": "grad2year-6,grad4year-6",
-            "longName": "Graduated | 2-Year & 4-Year ",
             "time": "6",
+            "long_name": "Graduated | 2-Year & 4-Year ",
+            "sort_order": 6,
+            "color": "#55D6BE",
             "id": "grad2year-6,grad4year-6"
         },
         {
             "name": "enr<2years-6",
-            "longName": "Enrolled | Less Than 2 Years",
             "time": "6",
+            "long_name": "Enrolled | Less Than 2 Years",
+            "sort_order": 8,
+            "color": "#bcbd22",
             "id": "enr<2years-6"
         },
         {
             "name": "grad<2years-7",
-            "longName": "Graduated | Less Than 2 Years",
             "time": "7",
+            "long_name": "Graduated | Less Than 2 Years",
+            "sort_order": 9,
+            "color": "#387780",
             "id": "grad<2years-7"
         },
         {
             "name": "grad2year-1",
-            "longName": "Graduated | 2-Year College",
             "time": "1",
+            "long_name": "Graduated | 2-Year College",
+            "sort_order": 5,
+            "color": "#2ca02c",
             "id": "grad2year-1"
         },
         {
             "name": "grad2year-8,grad4year-8",
-            "longName": "Graduated | 2-Year & 4-Year ",
             "time": "8",
+            "long_name": "Graduated | 2-Year & 4-Year ",
+            "sort_order": 6,
+            "color": "#55D6BE",
             "id": "grad2year-8,grad4year-8"
         },
         {
             "name": "grad2year-9",
-            "longName": "Graduated | 2-Year College",
             "time": "9",
+            "long_name": "Graduated | 2-Year College",
+            "sort_order": 5,
+            "color": "#2ca02c",
             "id": "grad2year-9"
         },
         {
             "name": "grad2year-9,grad4year-9",
-            "longName": "Graduated | 2-Year & 4-Year ",
             "time": "9",
+            "long_name": "Graduated | 2-Year & 4-Year ",
+            "sort_order": 6,
+            "color": "#55D6BE",
             "id": "grad2year-9,grad4year-9"
         },
         {
             "name": "grad4year-9",
-            "longName": "Graduated | 4-Year College",
             "time": "9",
+            "long_name": "Graduated | 4-Year College",
+            "sort_order": 7,
+            "color": "#ff7f0e",
             "id": "grad4year-9"
         },
         {
             "name": "grad<2years-8",
-            "longName": "Graduated | Less Than 2 Years",
             "time": "8",
+            "long_name": "Graduated | Less Than 2 Years",
+            "sort_order": 9,
+            "color": "#387780",
             "id": "grad<2years-8"
         },
         {
             "name": "grad<2years-9",
-            "longName": "Graduated | Less Than 2 Years",
             "time": "9",
+            "long_name": "Graduated | Less Than 2 Years",
+            "sort_order": 9,
+            "color": "#387780",
             "id": "grad<2years-9"
         },
         {
             "name": "hsgrad-0",
-            "longName": "Graduated | High School",
             "time": "0",
+            "long_name": "Graduated | High School",
+            "sort_order": 1,
+            "color": "#7D5BA6",
             "id": "hsgrad-0"
         },
         {
             "name": "hsgrad-1",
-            "longName": "Graduated | High School",
             "time": "1",
+            "long_name": "Graduated | High School",
+            "sort_order": 1,
+            "color": "#7D5BA6",
             "id": "hsgrad-1"
         },
         {
             "name": "norecordfound-1",
-            "longName": "No College Record Found",
             "time": "1",
+            "long_name": "No College Record Found",
+            "sort_order": 0,
+            "color": "#7f7f7f",
             "id": "norecordfound-1"
         },
         {
             "name": "hsgrad-2",
-            "longName": "Graduated | High School",
             "time": "2",
+            "long_name": "Graduated | High School",
+            "sort_order": 1,
+            "color": "#7D5BA6",
             "id": "hsgrad-2"
         },
         {
             "name": "hsgrad-3",
-            "longName": "Graduated | High School",
             "time": "3",
+            "long_name": "Graduated | High School",
+            "sort_order": 1,
+            "color": "#7D5BA6",
             "id": "hsgrad-3"
         },
         {
             "name": "hsgrad-4",
-            "longName": "Graduated | High School",
             "time": "4",
+            "long_name": "Graduated | High School",
+            "sort_order": 1,
+            "color": "#7D5BA6",
             "id": "hsgrad-4"
         },
         {
             "name": "hsgrad-5",
-            "longName": "Graduated | High School",
             "time": "5",
+            "long_name": "Graduated | High School",
+            "sort_order": 1,
+            "color": "#7D5BA6",
             "id": "hsgrad-5"
         },
         {
             "name": "hsgrad-6",
-            "longName": "Graduated | High School",
             "time": "6",
+            "long_name": "Graduated | High School",
+            "sort_order": 1,
+            "color": "#7D5BA6",
             "id": "hsgrad-6"
         },
         {
             "name": "hsgrad-7",
-            "longName": "Graduated | High School",
             "time": "7",
+            "long_name": "Graduated | High School",
+            "sort_order": 1,
+            "color": "#7D5BA6",
             "id": "hsgrad-7"
         },
         {
             "name": "norecordfound-2",
-            "longName": "No College Record Found",
             "time": "2",
+            "long_name": "No College Record Found",
+            "sort_order": 0,
+            "color": "#7f7f7f",
             "id": "norecordfound-2"
         },
         {
             "name": "norecordfound-3",
-            "longName": "No College Record Found",
             "time": "3",
+            "long_name": "No College Record Found",
+            "sort_order": 0,
+            "color": "#7f7f7f",
             "id": "norecordfound-3"
         },
         {
             "name": "norecordfound-4",
-            "longName": "No College Record Found",
             "time": "4",
+            "long_name": "No College Record Found",
+            "sort_order": 0,
+            "color": "#7f7f7f",
             "id": "norecordfound-4"
         },
         {
             "name": "norecordfound-5",
-            "longName": "No College Record Found",
             "time": "5",
+            "long_name": "No College Record Found",
+            "sort_order": 0,
+            "color": "#7f7f7f",
             "id": "norecordfound-5"
         },
         {
             "name": "norecordfound-6",
-            "longName": "No College Record Found",
             "time": "6",
+            "long_name": "No College Record Found",
+            "sort_order": 0,
+            "color": "#7f7f7f",
             "id": "norecordfound-6"
         },
         {
             "name": "norecordfound-7",
-            "longName": "No College Record Found",
             "time": "7",
+            "long_name": "No College Record Found",
+            "sort_order": 0,
+            "color": "#7f7f7f",
             "id": "norecordfound-7"
         },
         {
             "name": "norecordfound-8",
-            "longName": "No College Record Found",
             "time": "8",
+            "long_name": "No College Record Found",
+            "sort_order": 0,
+            "color": "#7f7f7f",
             "id": "norecordfound-8"
         },
         {
             "name": "norecordfound-9",
-            "longName": "No College Record Found",
             "time": "9",
+            "long_name": "No College Record Found",
+            "sort_order": 0,
+            "color": "#7f7f7f",
             "id": "norecordfound-9"
         }
     ],
