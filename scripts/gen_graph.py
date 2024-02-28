@@ -153,7 +153,7 @@ def write_graph(G, path):
 
 if __name__ ==  "__main__":
     print('Reading NSCH data')
-    nsch_data = read_nsch_data('data/scz_county_ns_clearinghouse_detail.csv', max_year=2023)
+    nsch_data = read_nsch_data('data/scz_county_ns_clearinghouse_detail.csv', max_year=2018)
 
     print('\nGenerating pre-graph df from NSCH data')
     nodes_df = gen_nodes_df(nsch_data)
@@ -168,3 +168,4 @@ if __name__ ==  "__main__":
     write_path = 'data/graph_timestep1yr.json'
     print(f'\nWriting graph to file {write_path}')
     write_graph(G, write_path)
+
