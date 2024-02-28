@@ -13,17 +13,14 @@ node_attributes = {
     'norecordfound': {'long_name': 'No College Record Found', 'sort_order': 0, 'color': '#7f7f7f' }, 
     'hsgrad': {'long_name': 'Graduated | High School', 'sort_order': 1, 'color': '#7D5BA6'},
     'enr<2years': {'long_name': 'Enrolled | Less Than 2 Years', 'sort_order': 2, 'color': '#bcbd22'},  
-    'enr2year': {'long_name': 'Enrolled | 2-Year College', 'sort_order': 3, 'color': '#d62728'},
-    'enr2year,enr<2years': {'long_name': 'Enrolled | 2-Year & Less Than 2 Years', 'sort_order': 4, 'color': '#ff9896'},
-    'enr2year,enr4year': {'long_name': 'Enrolled | 2-Year & 4-Year ', 'sort_order': 5, 'color': '#55D6BE'},
-    'enr4year,enr<2years': {'long_name': 'Enrolled | 4-Year & Less Than 2 Years', 'sort_order': 6, 'color': '#9467bd'},
-    'enr4year': {'long_name': 'Enrolled | 4-Year College', 'sort_order': 7, 'color': '#1f77b4'},
-    'grad<2years': {'long_name': 'Graduated | Less Than 2 Years', 'sort_order': 8, 'color': '#387780'},
-    'grad2year': {'long_name': 'Graduated | 2-Year College', 'sort_order': 9, 'color': '#2ca02c'},
+    'grad<2years': {'long_name': 'Graduated | Less Than 2 Years', 'sort_order': 3, 'color': '#387780'},
+    'enr2year': {'long_name': 'Enrolled | 2-Year College', 'sort_order': 4, 'color': '#d62728'},
+    'enr2year,enr<2years': {'long_name': 'Enrolled | 2-Year & Less Than 2 Years', 'sort_order': 5, 'color': '#ff9896'},
+    'enr2year,enr4year': {'long_name': 'Enrolled | 2-Year & 4-Year ', 'sort_order': 6, 'color': '#55D6BE'},
+    'grad2year': {'long_name': 'Graduated | 2-Year College', 'sort_order': 7, 'color': '#2ca02c'},
+    'enr4year,enr<2years': {'long_name': 'Enrolled | 4-Year & Less Than 2 Years', 'sort_order': 8, 'color': '#9467bd'},
+    'enr4year': {'long_name': 'Enrolled | 4-Year College', 'sort_order': 9, 'color': '#1f77b4'},
     'grad4year': {'long_name': 'Graduated | 4-Year College', 'sort_order': 10, 'color': '#ff7f0e'},
-
-    
-
 }
 
 def read_nsch_data(path, max_year=None):

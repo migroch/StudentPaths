@@ -7,7 +7,7 @@
             "name": "enr2year-1",
             "time": "1",
             "long_name": "Enrolled | 2-Year College",
-            "sort_order": 3,
+            "sort_order": 4,
             "color": "#d62728",
             "id": "enr2year-1"
         },
@@ -15,7 +15,7 @@
             "name": "enr2year-2",
             "time": "2",
             "long_name": "Enrolled | 2-Year College",
-            "sort_order": 3,
+            "sort_order": 4,
             "color": "#d62728",
             "id": "enr2year-2"
         },
@@ -23,7 +23,7 @@
             "name": "enr2year-2,enr4year-2",
             "time": "2",
             "long_name": "Enrolled | 2-Year & 4-Year ",
-            "sort_order": 5,
+            "sort_order": 6,
             "color": "#55D6BE",
             "id": "enr2year-2,enr4year-2"
         },
@@ -31,7 +31,7 @@
             "name": "enr4year-2",
             "time": "2",
             "long_name": "Enrolled | 4-Year College",
-            "sort_order": 7,
+            "sort_order": 9,
             "color": "#1f77b4",
             "id": "enr4year-2"
         },
@@ -39,7 +39,7 @@
             "name": "grad2year-2",
             "time": "2",
             "long_name": "Graduated | 2-Year College",
-            "sort_order": 9,
+            "sort_order": 7,
             "color": "#2ca02c",
             "id": "grad2year-2"
         },
@@ -55,7 +55,7 @@
             "name": "enr2year-1,enr4year-1",
             "time": "1",
             "long_name": "Enrolled | 2-Year & 4-Year ",
-            "sort_order": 5,
+            "sort_order": 6,
             "color": "#55D6BE",
             "id": "enr2year-1,enr4year-1"
         },
@@ -63,7 +63,7 @@
             "name": "enr2year-3",
             "time": "3",
             "long_name": "Enrolled | 2-Year College",
-            "sort_order": 3,
+            "sort_order": 4,
             "color": "#d62728",
             "id": "enr2year-3"
         },
@@ -71,7 +71,7 @@
             "name": "enr2year-3,enr4year-3",
             "time": "3",
             "long_name": "Enrolled | 2-Year & 4-Year ",
-            "sort_order": 5,
+            "sort_order": 6,
             "color": "#55D6BE",
             "id": "enr2year-3,enr4year-3"
         },
@@ -79,7 +79,7 @@
             "name": "enr4year-3",
             "time": "3",
             "long_name": "Enrolled | 4-Year College",
-            "sort_order": 7,
+            "sort_order": 9,
             "color": "#1f77b4",
             "id": "enr4year-3"
         },
@@ -87,7 +87,7 @@
             "name": "grad2year-3",
             "time": "3",
             "long_name": "Graduated | 2-Year College",
-            "sort_order": 9,
+            "sort_order": 7,
             "color": "#2ca02c",
             "id": "grad2year-3"
         },
@@ -103,7 +103,7 @@
             "name": "enr2year-4",
             "time": "4",
             "long_name": "Enrolled | 2-Year College",
-            "sort_order": 3,
+            "sort_order": 4,
             "color": "#d62728",
             "id": "enr2year-4"
         },
@@ -111,7 +111,7 @@
             "name": "enr2year-4,enr4year-4",
             "time": "4",
             "long_name": "Enrolled | 2-Year & 4-Year ",
-            "sort_order": 5,
+            "sort_order": 6,
             "color": "#55D6BE",
             "id": "enr2year-4,enr4year-4"
         },
@@ -119,7 +119,7 @@
             "name": "enr2year-4,enr<2years-4",
             "time": "4",
             "long_name": "Enrolled | 2-Year & Less Than 2 Years",
-            "sort_order": 4,
+            "sort_order": 5,
             "color": "#ff9896",
             "id": "enr2year-4,enr<2years-4"
         },
@@ -127,7 +127,7 @@
             "name": "enr4year-4",
             "time": "4",
             "long_name": "Enrolled | 4-Year College",
-            "sort_order": 7,
+            "sort_order": 9,
             "color": "#1f77b4",
             "id": "enr4year-4"
         },
@@ -143,7 +143,7 @@
             "name": "grad2year-4",
             "time": "4",
             "long_name": "Graduated | 2-Year College",
-            "sort_order": 9,
+            "sort_order": 7,
             "color": "#2ca02c",
             "id": "grad2year-4"
         },
@@ -159,7 +159,7 @@
             "name": "enr2year-5",
             "time": "5",
             "long_name": "Enrolled | 2-Year College",
-            "sort_order": 3,
+            "sort_order": 4,
             "color": "#d62728",
             "id": "enr2year-5"
         },
@@ -167,7 +167,7 @@
             "name": "enr2year-5,enr4year-5",
             "time": "5",
             "long_name": "Enrolled | 2-Year & 4-Year ",
-            "sort_order": 5,
+            "sort_order": 6,
             "color": "#55D6BE",
             "id": "enr2year-5,enr4year-5"
         },
@@ -175,7 +175,7 @@
             "name": "enr4year-5",
             "time": "5",
             "long_name": "Enrolled | 4-Year College",
-            "sort_order": 7,
+            "sort_order": 9,
             "color": "#1f77b4",
             "id": "enr4year-5"
         },
@@ -183,7 +183,7 @@
             "name": "enr4year-5,enr<2years-5",
             "time": "5",
             "long_name": "Enrolled | 4-Year & Less Than 2 Years",
-            "sort_order": 6,
+            "sort_order": 8,
             "color": "#9467bd",
             "id": "enr4year-5,enr<2years-5"
         },
@@ -199,7 +199,7 @@
             "name": "grad2year-5",
             "time": "5",
             "long_name": "Graduated | 2-Year College",
-            "sort_order": 9,
+            "sort_order": 7,
             "color": "#2ca02c",
             "id": "grad2year-5"
         },
@@ -215,7 +215,7 @@
             "name": "enr2year-6",
             "time": "6",
             "long_name": "Enrolled | 2-Year College",
-            "sort_order": 3,
+            "sort_order": 4,
             "color": "#d62728",
             "id": "enr2year-6"
         },
@@ -223,7 +223,7 @@
             "name": "enr2year-6,enr4year-6",
             "time": "6",
             "long_name": "Enrolled | 2-Year & 4-Year ",
-            "sort_order": 5,
+            "sort_order": 6,
             "color": "#55D6BE",
             "id": "enr2year-6,enr4year-6"
         },
@@ -231,7 +231,7 @@
             "name": "enr4year-6",
             "time": "6",
             "long_name": "Enrolled | 4-Year College",
-            "sort_order": 7,
+            "sort_order": 9,
             "color": "#1f77b4",
             "id": "enr4year-6"
         },
@@ -247,7 +247,7 @@
             "name": "grad2year-6",
             "time": "6",
             "long_name": "Graduated | 2-Year College",
-            "sort_order": 9,
+            "sort_order": 7,
             "color": "#2ca02c",
             "id": "grad2year-6"
         },
@@ -263,7 +263,7 @@
             "name": "enr2year-7",
             "time": "7",
             "long_name": "Enrolled | 2-Year College",
-            "sort_order": 3,
+            "sort_order": 4,
             "color": "#d62728",
             "id": "enr2year-7"
         },
@@ -271,7 +271,7 @@
             "name": "enr2year-7,enr4year-7",
             "time": "7",
             "long_name": "Enrolled | 2-Year & 4-Year ",
-            "sort_order": 5,
+            "sort_order": 6,
             "color": "#55D6BE",
             "id": "enr2year-7,enr4year-7"
         },
@@ -279,7 +279,7 @@
             "name": "enr4year-7",
             "time": "7",
             "long_name": "Enrolled | 4-Year College",
-            "sort_order": 7,
+            "sort_order": 9,
             "color": "#1f77b4",
             "id": "enr4year-7"
         },
@@ -287,7 +287,7 @@
             "name": "grad2year-7",
             "time": "7",
             "long_name": "Graduated | 2-Year College",
-            "sort_order": 9,
+            "sort_order": 7,
             "color": "#2ca02c",
             "id": "grad2year-7"
         },
@@ -303,7 +303,7 @@
             "name": "enr2year-8",
             "time": "8",
             "long_name": "Enrolled | 2-Year College",
-            "sort_order": 3,
+            "sort_order": 4,
             "color": "#d62728",
             "id": "enr2year-8"
         },
@@ -311,7 +311,7 @@
             "name": "enr2year-8,enr4year-8",
             "time": "8",
             "long_name": "Enrolled | 2-Year & 4-Year ",
-            "sort_order": 5,
+            "sort_order": 6,
             "color": "#55D6BE",
             "id": "enr2year-8,enr4year-8"
         },
@@ -319,7 +319,7 @@
             "name": "enr4year-8",
             "time": "8",
             "long_name": "Enrolled | 4-Year College",
-            "sort_order": 7,
+            "sort_order": 9,
             "color": "#1f77b4",
             "id": "enr4year-8"
         },
@@ -327,7 +327,7 @@
             "name": "grad2year-8",
             "time": "8",
             "long_name": "Graduated | 2-Year College",
-            "sort_order": 9,
+            "sort_order": 7,
             "color": "#2ca02c",
             "id": "grad2year-8"
         },
@@ -335,7 +335,7 @@
             "name": "enr2year-9",
             "time": "9",
             "long_name": "Enrolled | 2-Year College",
-            "sort_order": 3,
+            "sort_order": 4,
             "color": "#d62728",
             "id": "enr2year-9"
         },
@@ -343,7 +343,7 @@
             "name": "enr2year-9,enr4year-9",
             "time": "9",
             "long_name": "Enrolled | 2-Year & 4-Year ",
-            "sort_order": 5,
+            "sort_order": 6,
             "color": "#55D6BE",
             "id": "enr2year-9,enr4year-9"
         },
@@ -351,7 +351,7 @@
             "name": "enr4year-1",
             "time": "1",
             "long_name": "Enrolled | 4-Year College",
-            "sort_order": 7,
+            "sort_order": 9,
             "color": "#1f77b4",
             "id": "enr4year-1"
         },
@@ -359,7 +359,7 @@
             "name": "enr4year-2,enr<2years-2",
             "time": "2",
             "long_name": "Enrolled | 4-Year & Less Than 2 Years",
-            "sort_order": 6,
+            "sort_order": 8,
             "color": "#9467bd",
             "id": "enr4year-2,enr<2years-2"
         },
@@ -375,7 +375,7 @@
             "name": "enr4year-6,enr<2years-6",
             "time": "6",
             "long_name": "Enrolled | 4-Year & Less Than 2 Years",
-            "sort_order": 6,
+            "sort_order": 8,
             "color": "#9467bd",
             "id": "enr4year-6,enr<2years-6"
         },
@@ -383,7 +383,7 @@
             "name": "enr4year-7,enr<2years-7",
             "time": "7",
             "long_name": "Enrolled | 4-Year & Less Than 2 Years",
-            "sort_order": 6,
+            "sort_order": 8,
             "color": "#9467bd",
             "id": "enr4year-7,enr<2years-7"
         },
@@ -399,7 +399,7 @@
             "name": "enr4year-8,enr<2years-8",
             "time": "8",
             "long_name": "Enrolled | 4-Year & Less Than 2 Years",
-            "sort_order": 6,
+            "sort_order": 8,
             "color": "#9467bd",
             "id": "enr4year-8,enr<2years-8"
         },
@@ -407,7 +407,7 @@
             "name": "enr4year-9",
             "time": "9",
             "long_name": "Enrolled | 4-Year College",
-            "sort_order": 7,
+            "sort_order": 9,
             "color": "#1f77b4",
             "id": "enr4year-9"
         },
@@ -415,7 +415,7 @@
             "name": "enr4year-9,enr<2years-9",
             "time": "9",
             "long_name": "Enrolled | 4-Year & Less Than 2 Years",
-            "sort_order": 6,
+            "sort_order": 8,
             "color": "#9467bd",
             "id": "enr4year-9,enr<2years-9"
         },
@@ -431,7 +431,7 @@
             "name": "grad<2years-5",
             "time": "5",
             "long_name": "Graduated | Less Than 2 Years",
-            "sort_order": 8,
+            "sort_order": 3,
             "color": "#387780",
             "id": "grad<2years-5"
         },
@@ -439,7 +439,7 @@
             "name": "grad<2years-6",
             "time": "6",
             "long_name": "Graduated | Less Than 2 Years",
-            "sort_order": 8,
+            "sort_order": 3,
             "color": "#387780",
             "id": "grad<2years-6"
         },
@@ -471,7 +471,7 @@
             "name": "grad2year-1",
             "time": "1",
             "long_name": "Graduated | 2-Year College",
-            "sort_order": 9,
+            "sort_order": 7,
             "color": "#2ca02c",
             "id": "grad2year-1"
         },
@@ -479,7 +479,7 @@
             "name": "grad2year-9",
             "time": "9",
             "long_name": "Graduated | 2-Year College",
-            "sort_order": 9,
+            "sort_order": 7,
             "color": "#2ca02c",
             "id": "grad2year-9"
         },
@@ -495,7 +495,7 @@
             "name": "grad<2years-2",
             "time": "2",
             "long_name": "Graduated | Less Than 2 Years",
-            "sort_order": 8,
+            "sort_order": 3,
             "color": "#387780",
             "id": "grad<2years-2"
         },
@@ -503,7 +503,7 @@
             "name": "grad<2years-3",
             "time": "3",
             "long_name": "Graduated | Less Than 2 Years",
-            "sort_order": 8,
+            "sort_order": 3,
             "color": "#387780",
             "id": "grad<2years-3"
         },
@@ -511,7 +511,7 @@
             "name": "grad<2years-4",
             "time": "4",
             "long_name": "Graduated | Less Than 2 Years",
-            "sort_order": 8,
+            "sort_order": 3,
             "color": "#387780",
             "id": "grad<2years-4"
         },
@@ -519,7 +519,7 @@
             "name": "grad<2years-7",
             "time": "7",
             "long_name": "Graduated | Less Than 2 Years",
-            "sort_order": 8,
+            "sort_order": 3,
             "color": "#387780",
             "id": "grad<2years-7"
         },
@@ -527,7 +527,7 @@
             "name": "grad<2years-8",
             "time": "8",
             "long_name": "Graduated | Less Than 2 Years",
-            "sort_order": 8,
+            "sort_order": 3,
             "color": "#387780",
             "id": "grad<2years-8"
         },
@@ -535,7 +535,7 @@
             "name": "grad<2years-9",
             "time": "9",
             "long_name": "Graduated | Less Than 2 Years",
-            "sort_order": 8,
+            "sort_order": 3,
             "color": "#387780",
             "id": "grad<2years-9"
         },
